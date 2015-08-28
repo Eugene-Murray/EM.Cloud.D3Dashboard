@@ -15,8 +15,8 @@ angular.module('d3dashboard', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize'
         })
         .state('index.minor', {
             url: "/minor",
-            templateUrl: "app/minor/minor.html",
-            data: { pageTitle: 'Example view' }
+            templateUrl: "app/metrics/metrics.html",
+            data: { pageTitle: 'Metrics' }
         })
 
     $urlRouterProvider.otherwise('/index/main');

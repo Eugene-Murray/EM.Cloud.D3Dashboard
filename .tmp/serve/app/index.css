@@ -7424,3 +7424,15 @@ body.skin-3 {
     display: none;
   }
 }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #eee;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 11px;
+}
+.bar {
+  fill: steelblue;
+}
