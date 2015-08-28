@@ -25,6 +25,7 @@ gulp.task('partials', function () {
 });
 
 gulp.task('html', ['inject', 'partials'], function () {
+  
   var partialsInjectFile = gulp.src(paths.tmp + '/partials/templateCacheHtml.js', { read: false });
   var partialsInjectOptions = {
     starttag: '<!-- inject:partials -->',
