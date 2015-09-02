@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" ng-app="d3dashboard">
+
+<head>
+  <meta charset="utf-8">
+  <title>EM.Cloud D3 Dashboard</EM>
+  </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Font awesome -->
+  <link href="../bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Bootstrap and Fonts -->
+  <link href="../bower_components/bootstrap/bootstrap.min.css" rel="stylesheet">
+  
+  
+
+  <!-- Main Inspinia CSS files -->
+  <link href="../bower_components/animate.css/animate.css" rel="stylesheet">
+
+  <!-- Insert Less here -->
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automaticaly insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+</head>
+
+<body ng-controller="MainController as main">
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div ui-view></div>
+
+  <!-- jQuery and Bootstrap -->
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/jquery-ui/jquery-ui.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- MetsiMenu -->
+  <script src="../bower_components/metisMenu/dist/metisMenu.js"></script>
+
+  <!-- SlimScroll -->
+  <script src="../bower_components/slimscroll/jquery.slimscroll.min.js"></script>
+
+  <!-- Peace JS -->
+  <script src="../bower_components/pace/pace.min.js"></script>
+
+  <!-- Custom and plugin javascript -->
+  <script src="app/inspinia.js"></script>
+
+  <!-- Main Angular scripts-->
+  <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="../bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+  <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+
+  <!-- Anglar App Script -->
+  <script src="app/app.js"></script>
+  <!--<script src="app/config.js"></script>-->
+  <script src="app/directives.js"></script>
+  <script src="app/controllers.js"></script>
+
+
+
+</body>
+
+</html>

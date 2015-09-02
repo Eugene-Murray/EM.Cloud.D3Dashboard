@@ -35,6 +35,10 @@ gulp.task('test', function(){
 
 require('require-dir')('./gulp');
 
-gulp.task('create-ui', ['clean'], function () {
+gulp.task('create-live-ui', ['clean'], function () {
     gulp.start('build');
+});
+
+gulp.task('create-dev-ui', ['clean'], function () {
+    gulp.start('build-dev');
 });
