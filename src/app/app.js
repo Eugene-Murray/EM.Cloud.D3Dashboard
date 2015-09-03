@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('d3dashboard', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap'])
+//angular.module('d3dashboard', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap'])
+angular.module('d3dashboard', ['ui.router', 'ui.bootstrap'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('index', {
